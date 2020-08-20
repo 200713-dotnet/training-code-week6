@@ -9,10 +9,24 @@ let img = document.querySelector('img');
 
 let http = window.fetch; // Fetch API
 
-let pass = function (response) {
-  response.text().then((result) => {
+let pass = function (blah) { // function expression, function-scope
+  console.log(this.name); // scope of nameless/anonymous function scope
+  blah.text().then((result) => {
     img.setAttribute('src', result);
   })
 }
 
-http('http://localhost:5000/api/image', { method: 'get' }).then(pass, function () {});
+let fail = () => { // function expression, invocation-scope
+  console.log(this.name);
+  console.log('i am a function too');
+}
+
+http('http://localhost:5000/api/image', { method: 'get' }).then(pass, () => {});
+
+function someFunc() {
+  this.name = 'fred';
+
+  pass(); // scope = pass, this.name -> undefined
+
+  fail(); // scope = someFunc, this.name -> 'fred'
+}
