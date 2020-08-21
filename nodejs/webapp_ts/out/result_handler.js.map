@@ -1,0 +1,1 @@
+{"version":3,"file":"result_handler.js","sourceRoot":"","sources":["../app/result_handler.ts"],"names":[],"mappings":"AAAA,MAAM,OAAO,aAAa;IACxB,IAAI,CAAC,OAAyB,EAAE,IAAS;QACvC,OAAO,CAAC,YAAY,CAAC,KAAK,EAAE,IAAI,CAAC,CAAC;IACpC,CAAC;IAED,IAAI,CAAC,IAAS;QACZ,OAAO,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC;IACtB,CAAC;CACF"}

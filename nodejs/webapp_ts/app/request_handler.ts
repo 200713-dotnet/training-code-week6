@@ -1,4 +1,4 @@
-import { ResponseHandler } from "./response_handler";
+import { ResponseHandler } from "./response_handler.js";
 
 export class RequestHandler {
   get(url: string, httpMethod: string) : void {
