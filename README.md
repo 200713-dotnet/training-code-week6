@@ -74,3 +74,37 @@ print(s); // works
 print(s2); // works
 print(s3); // works
 ```
+
+## questions
+
+1. can you explain what is JS in a few words?
+2. would you say that JS is a compiled language and why?
+3. would you say that JS is a strongly-typed language and why?
+4. how is JS different than TS?
+5. how would you explain hoisting?
+6. what are the many ways that you can create an object?
+7. what are the many ways that you can create a function?
+8. is there a difference between compiled and interprested?
+9. is there a difference between transpiled and compiled?
+10. what are some of the benefits of using TS?
+11. how would you explain the SPA design pattern?
+12. can you explain what is Angular in a few words?
+13. can you explain what is TS in few words?
+14. which is better type coercion or strict equality and why?
+15. can you explain the difference between TS module and NG module?
+16. what are the different types of binding in Angular?
+17. can you walk me through the architeture of an Angular app?
+18. how do you implement routing in Angular?
+19. how would you explain Ajax? (read about XHR = xml http request)
+20. how do you implement Ajax in TS?
+21. how do you implement a module in TS?
+22. what are the different structures available in Angular?
+23. can you explain the difference between function and arrow function in JS?
+24. what is the purpose of hoisting?
+25. what is the purpose of closure?
+26. what are the different scopes in JS?
+27. what are the different scopes in Angular?
+28. is there any difference between var and let?
+29. what is the purpose of using strict in JS?
+30. can you explain the concepts of bundling and minification?
+31. can you walk me through a request workflow to an Angular app?
