@@ -1,5 +1,5 @@
 <!-- one-way binding or interpolation, handlebar, mustache -->
-<h1>{{ oneway }}</h1>
+<h1>{{ oneway | dotnet }}</h1>
 
 <!-- two-way binding or client-server and server-client, banana box -->
 <h2>{{ twoway }}</h2>
@@ -7,4 +7,5 @@
 <input type="text" [value]="twoway">
 
 <!-- one-way binding on html attribute, attribute-binding  -->
-<img [src]="image" alt="its corgi">
+
+<img [src]="image$ | async" alt="its corgi">
