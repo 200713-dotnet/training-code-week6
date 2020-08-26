@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FredComponent implements OnInit {
 
-  constructor() { }
+  constructor() { } // TS/JS
 
-  ngOnInit(): void {
+  ngOnInit(): void { // NG
   }
 
 }

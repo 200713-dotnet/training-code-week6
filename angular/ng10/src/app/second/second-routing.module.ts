@@ -4,8 +4,8 @@ import { LenovoComponent } from './lenovo/lenovo.component';
 import { ThinkpadComponent } from './thinkpad/thinkpad.component';
 
 const routes: Routes = [
-  { path: '', component: LenovoComponent },
-  { path: 'thinkpad', component: ThinkpadComponent } // /second/lenovo
+  { path: '', component: LenovoComponent }, // /second
+  { path: 'thinkpad', component: ThinkpadComponent } // /second/thinkpad
 ];
 
 @NgModule({

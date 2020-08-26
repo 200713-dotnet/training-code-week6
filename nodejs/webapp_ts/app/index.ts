@@ -1,5 +1,5 @@
 import { RequestHandler } from "./request_handler.js";
-import { ResponseHandler } from "./response_handler.js";
+import { RequestHandler } from "./request_handler";
 
 let request: RequestHandler = new RequestHandler();
 
